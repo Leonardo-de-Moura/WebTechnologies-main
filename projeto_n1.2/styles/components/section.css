@@ -1,0 +1,40 @@
+.text {
+    background: linear-gradient(90deg, var(--cor-gradiente-1), var(--cor-gradiente-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2.7rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+}
+
+.container-texts {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    margin-bottom: 20px;
+    width: 500px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button {
+    background: var(--cor-neon);
+    color: var(--cor-branca);
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 600;
+    box-shadow: 0 0 15px rgba(138, 43, 226, 0.3);
+}
+
+.button:hover {
+    background: linear-gradient(45deg, var(--cor-gradiente-1), var(--cor-gradiente-2));
+    color: var(--cor-branca);
+    box-shadow: 0 0 20px rgba(138, 43, 226, 0.5);
+}

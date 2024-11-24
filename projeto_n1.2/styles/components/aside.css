@@ -1,0 +1,24 @@
+.container-images {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.container-right {
+    width: 640px;
+}
+
+.container-left {
+    display: flex;
+    text-align: center;
+}
+
+.images {
+    width: 180px;
+    height: 100px;
+    border-radius: 10px;
+    transition: scale 0.3s ease;
+}
+
+.images:hover {
+    scale: 1.2;
+}
