@@ -1,6 +1,21 @@
 .container-footer{
-    margin-top: 170px;
+    margin-top: 70px;
+}
+.footer-tag{
+    width: 100vw;
+}
+p{
+    display: inline;
 }
 .footer{
     text-align: center;
+    
+}
+.footer p:last-child{
+    background: linear-gradient(45deg, var(--cor-gradiente-1), var(--cor-gradiente-2));
+    -webkit-background-clip: text;
+    font-size: 1.1rem;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 0.5px;
 }

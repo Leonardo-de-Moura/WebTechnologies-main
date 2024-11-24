@@ -1,6 +1,10 @@
 .container-images {
     margin-top: 150px;
     margin-left: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 23px;
 }
 
 .container-right {
@@ -13,12 +17,32 @@
 }
 
 .images {
-    width: 180px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     border-radius: 10px;
-    transition: scale 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-.images:hover {
-    scale: 1.2;
+#image1:hover {
+    box-shadow: 14px 10px 40px 0px rgb(5, 5, 5);
+    transform: scale(1.1);
+    transform: translate(-12px, -10px);
+}
+
+#image2:hover {
+    box-shadow: 14px 10px 40px 0px rgb(5, 5, 5);
+    transform: scale(1.1);
+    transform: translate(12px, -10px);
+}
+
+#image3:hover {
+    box-shadow: 14px 10px 40px 0px rgb(5, 5, 5);
+    transform: scale(1.1);
+    transform: translate(-12px, 10px);
+}
+
+#image4:hover {
+    box-shadow: 14px 10px 40px 0px rgb(5, 5, 5);
+    transform: scale(1.1);
+    transform: translate(12px, 10px);
 }
