@@ -37,4 +37,5 @@
     background: linear-gradient(45deg, var(--cor-gradiente-1), var(--cor-gradiente-2));
     color: var(--cor-branca);
     box-shadow: 0 0 20px rgba(138, 43, 226, 0.5);
+    cursor: pointer;
 }
